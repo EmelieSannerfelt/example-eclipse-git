@@ -11,7 +11,10 @@ public class ExampleLoop {
 			System.out.println(counter + 1);
 			counter++;
 		}
-
+		int j = 0;
+		do {
+			System.out.println(j +1);
+			j++;
+		} while (j< 10);
 	}
-
 }
